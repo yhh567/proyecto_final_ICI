@@ -1,0 +1,16 @@
+stm_spi_api.c:510:12:spi_master_start_asynch_transfer	40	static
+stm_spi_api.c:74:6:init_spi	8	static
+stm_spi_api.c:96:6:spi_init	56	static
+stm_spi_api.c:193:6:spi_free	8	static
+stm_spi_api.c:260:6:spi_format	8	static
+stm_spi_api.c:324:6:spi_frequency	16	static
+stm_spi_api.c:385:5:spi_master_write	16	static
+stm_spi_api.c:428:5:spi_master_block_write	40	static
+stm_spi_api.c:462:5:spi_slave_receive	0	static
+stm_spi_api.c:467:5:spi_slave_read	0	static
+stm_spi_api.c:479:6:spi_slave_write	8	static
+stm_spi_api.c:495:5:spi_busy	0	static
+stm_spi_api.c:569:6:spi_master_transfer	40	static
+stm_spi_api.c:623:17:spi_irq_handler_asynch	8	static
+stm_spi_api.c:654:9:spi_active	8	static
+stm_spi_api.c:670:6:spi_abort_asynch	16	static

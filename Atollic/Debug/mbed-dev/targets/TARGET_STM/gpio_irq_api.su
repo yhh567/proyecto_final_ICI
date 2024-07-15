@@ -1,0 +1,9 @@
+gpio_irq_api.c:76:13:handle_interrupt_in	16	static
+gpio_irq_api.c:145:13:gpio_irq2	8	static
+gpio_irq_api.c:138:13:gpio_irq1	8	static
+gpio_irq_api.c:131:13:gpio_irq0	8	static
+gpio_irq_api.c:278:6:gpio_irq_set	16	static
+gpio_irq_api.c:301:6:gpio_irq_enable	20	static
+gpio_irq_api.c:182:5:gpio_irq_init	48	static
+gpio_irq_api.c:326:6:gpio_irq_disable	12	static
+gpio_irq_api.c:266:6:gpio_irq_free	16	static

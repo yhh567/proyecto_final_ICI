@@ -1,0 +1,13 @@
+InterruptIn.cpp:97:6:static void mbed::InterruptIn::_irq_handler(uint32_t, gpio_irq_event)	8	static
+InterruptIn.cpp:52:1:mbed::InterruptIn::~InterruptIn()	8	static
+InterruptIn.cpp:52:1:virtual mbed::InterruptIn::~InterruptIn()	8	static
+InterruptIn.cpp:47:6:void mbed::InterruptIn::irq_init(PinName)	8	static
+InterruptIn.cpp:26:1:mbed::InterruptIn::InterruptIn(PinName)	16	static
+InterruptIn.cpp:36:1:mbed::InterruptIn::InterruptIn(PinName, PinMode)	24	static
+InterruptIn.cpp:58:5:int mbed::InterruptIn::read()	0	static
+InterruptIn.cpp:64:6:void mbed::InterruptIn::mode(PinMode)	16	static
+InterruptIn.cpp:71:6:void mbed::InterruptIn::rise(mbed::Callback<void()>)	32	static
+InterruptIn.cpp:84:6:void mbed::InterruptIn::fall(mbed::Callback<void()>)	32	static
+InterruptIn.cpp:116:6:void mbed::InterruptIn::enable_irq()	8	static
+InterruptIn.cpp:123:6:void mbed::InterruptIn::disable_irq()	8	static
+InterruptIn.cpp:130:1:mbed::InterruptIn::operator int()	8	static

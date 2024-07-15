@@ -1,0 +1,103 @@
+FileHandle.h:98:17:virtual int mbed::FileHandle::sync()	0	static
+FileHandle.h:120:19:virtual off_t mbed::FileHandle::tell()	8	static
+FileHandle.h:129:18:virtual void mbed::FileHandle::rewind()	8	static
+FileHandle.h:153:19:virtual off_t mbed::FileHandle::lseek(off_t, int)	8	static
+FileHandle.h:167:17:virtual int mbed::FileHandle::fsync()	8	static
+FileHandle.h:179:19:virtual off_t mbed::FileHandle::flen()	8	static
+FileHandle.h:193:17:virtual int mbed::FileHandle::set_blocking(bool)	0	static
+FileHandle.h:202:18:virtual bool mbed::FileHandle::is_blocking() const	0	static
+FileHandle.h:217:19:virtual short int mbed::FileHandle::poll(short int) const	0	static
+FileHandle.h:262:18:virtual void mbed::FileHandle::sigio(mbed::Callback<void()>)	0	static
+mbed_retarget.cpp:141:19:virtual off_t DirectSerial::seek(off_t, int)	0	static
+mbed_retarget.cpp:145:19:virtual off_t DirectSerial::size()	0	static
+mbed_retarget.cpp:149:17:virtual int DirectSerial::isatty()	0	static
+mbed_retarget.cpp:153:17:virtual int DirectSerial::close()	0	static
+mbed_retarget.cpp:212:19:virtual off_t Sink::seek(off_t, int)	0	static
+mbed_retarget.cpp:216:19:virtual off_t Sink::size()	0	static
+mbed_retarget.cpp:220:17:virtual int Sink::isatty()	0	static
+mbed_retarget.cpp:224:17:virtual int Sink::close()	0	static
+mbed_retarget.cpp:230:9:virtual ssize_t Sink::write(const void*, size_t)	0	static
+mbed_retarget.cpp:236:9:virtual ssize_t Sink::read(void*, size_t)	0	static
+mbed_retarget.cpp:573:13:bool convert_crlf(int)	0	static
+mbed_retarget.cpp:208:7:Sink::~Sink()	0	static
+mbed_retarget.cpp:136:7:DirectSerial::~DirectSerial()	0	static
+mbed_retarget.cpp:176:9:virtual ssize_t DirectSerial::write(const void*, size_t)	16	static
+mbed_retarget.cpp:185:9:virtual ssize_t DirectSerial::read(void*, size_t)	8	static
+mbed_retarget.cpp:195:7:virtual short int DirectSerial::poll(short int) const	16	static
+mbed_retarget.cpp:404:12:int unbind_from_fd(int, mbed::FileHandle*)	8	static
+mbed_retarget.cpp:311:12:int handle_open_errors(int, unsigned int)	16	static
+mbed_retarget.cpp:367:12:int reserve_filehandle()	8	static
+mbed_retarget.cpp:114:6:void mbed::remove_filehandle(mbed::FileHandle*)	12	static
+mbed_retarget.cpp:160:1:DirectSerial::DirectSerial(PinName, PinName, int)	16	static
+mbed_retarget.cpp:256:20:mbed::FileHandle* default_console()	8	static
+mbed_retarget.cpp:246:23:mbed::FileHandle* mbed::mbed_target_override_console(int)	0	static
+mbed_retarget.cpp:251:23:mbed::FileHandle* mbed::mbed_override_console(int)	0	static
+mbed_retarget.cpp:278:20:mbed::FileHandle* get_console(int)	8	static
+mbed_retarget.cpp:292:20:mbed::FileHandle* get_fhc(int)	8	static
+mbed_retarget.cpp:390:5:int mbed::bind_to_fd(mbed::FileHandle*)	8	static
+mbed_retarget.cpp:513:16:)	36	static
+mbed_retarget.cpp:465:23:FILEHANDLE _open(const char*, int)	24	static
+mbed_retarget.cpp:555:16:int close(int)	8	static
+mbed_retarget.cpp:550:16:int _close(FILEHANDLE)	8	static
+mbed_retarget.cpp:666:20:ssize_t write(int, const void*, size_t)	16	static
+mbed_retarget.cpp:588:16:int _write(FILEHANDLE, const unsigned char*, unsigned int, int)	40	static
+mbed_retarget.cpp:761:20:ssize_t read(int, void*, size_t)	16	static
+mbed_retarget.cpp:701:16:int _read(FILEHANDLE, unsigned char*, unsigned int, int)	24	static
+mbed_retarget.cpp:789:16:int isatty(int)	8	static
+mbed_retarget.cpp:783:16:int _isatty(FILEHANDLE)	8	static
+mbed_retarget.cpp:828:18:off_t lseek(int, off_t, int)	16	static
+mbed_retarget.cpp:812:5:int _lseek(FILEHANDLE, int, int)	8	static
+mbed_retarget.cpp:851:16:int fsync(int)	8	static
+mbed_retarget.cpp:919:16:int fstat(int, stat*)	16	static
+mbed_retarget.cpp:913:16:int _fstat(int, stat*)	8	static
+mbed_retarget.cpp:932:16:)	20	static
+mbed_retarget.cpp:968:16:int poll(pollfd*, nfds_t, int)	544	static
+mbed_retarget.cpp:990:16:int remove(const char*)	24	static
+mbed_retarget.cpp:1008:16:int rename(const char*, const char*)	32	static
+mbed_retarget.cpp:1035:18:char* std::tmpnam(char*)	8	static
+mbed_retarget.cpp:1041:18:FILE* tmpfile()	8	static
+mbed_retarget.cpp:1055:17:DIR* opendir(const char*)	32	static
+mbed_retarget.cpp:1074:27:dirent* readdir(DIR*)	8	static
+mbed_retarget.cpp:1088:16:int closedir(DIR*)	8	static
+mbed_retarget.cpp:1099:17:void rewinddir(DIR*)	8	static
+mbed_retarget.cpp:1104:18:off_t telldir(DIR*)	8	static
+mbed_retarget.cpp:1109:17:void seekdir(DIR*, off_t)	8	static
+mbed_retarget.cpp:1114:16:int mkdir(const char*, mode_t)	24	static
+mbed_retarget.cpp:1132:16:int stat(const char*, stat*)	24	static
+mbed_retarget.cpp:1150:16:int statvfs(const char*, statvfs*)	24	static
+mbed_retarget.cpp:1172:6:void __gnu_cxx::__verbose_terminate_handler()	16	static
+mbed_retarget.cpp:1178:22:void __cxa_pure_virtual()	8	static
+mbed_retarget.cpp:1213:25:char* _sbrk(int)	0	static
+mbed_retarget.cpp:1241:17:void _exit(int)	16	static
+mbed_retarget.cpp:1280:9:int __aeabi_atexit(void*, void (*)(void*), void*)	0	static
+mbed_retarget.cpp:1285:9:int __cxa_atexit(void (*)(void*), void*, void*)	0	static
+mbed_retarget.cpp:1290:10:void __cxa_finalize(void*)	0	static
+mbed_retarget.cpp:1315:10:void __wrap_exit(int)	8	static
+mbed_retarget.cpp:1325:9:int __wrap_atexit(void (*)())	0	static
+mbed_retarget.cpp:1338:6:void mbed::mbed_set_unbuffered_stream(FILE*)	8	static
+mbed_retarget.cpp:417:23:FILE* fdopen(int, const char*)	32	static
+mbed_retarget.cpp:437:12:FILE* mbed::fdopen(mbed::FileHandle*, const char*)	16	static
+mbed_retarget.cpp:1348:5:int mbed::mbed_getc(FILE*)	8	static
+mbed_retarget.cpp:1364:7:char* mbed::mbed_gets(char*, int, FILE*)	8	static
+mbed_retarget.cpp:1405:22:void __rtos_malloc_lock(_reent*)	0	static
+mbed_retarget.cpp:1406:22:void __rtos_malloc_unlock(_reent*)	0	static
+mbed_retarget.cpp:1407:22:void __rtos_env_lock(_reent*)	0	static
+mbed_retarget.cpp:1408:22:void __rtos_env_unlock(_reent*)	0	static
+mbed_retarget.cpp:1410:17:void __malloc_lock(_reent*)	8	static
+mbed_retarget.cpp:1415:17:void __malloc_unlock(_reent*)	8	static
+mbed_retarget.cpp:1420:17:void __env_lock(_reent*)	8	static
+mbed_retarget.cpp:1425:17:void __env_unlock(_reent*)	8	static
+mbed_retarget.cpp:1438:16:int __cxa_guard_acquire(int*)	0	static
+mbed_retarget.cpp:1454:17:void __cxa_guard_release(int*)	0	static
+mbed_retarget.cpp:1462:17:void __cxa_guard_abort(int*)	0	static
+mbed_retarget.cpp:1565:7:void* operator new(std::size_t)	24	static
+mbed_retarget.cpp:1574:7:void* operator new [](std::size_t)	24	static
+mbed_retarget.cpp:1583:7:void* operator new(std::size_t, const std::nothrow_t&)	8	static
+mbed_retarget.cpp:1588:7:void* operator new [](std::size_t, const std::nothrow_t&)	8	static
+mbed_retarget.cpp:1593:6:void operator delete(void*)	8	static
+mbed_retarget.cpp:136:7:virtual DirectSerial::~DirectSerial()	8	static
+mbed_retarget.cpp:208:7:virtual Sink::~Sink()	8	static
+mbed_retarget.cpp:1597:6:void operator delete [](void*)	8	static
+mbed_retarget.cpp:1614:20:clock_t clock()	8	static
+mbed_retarget.cpp:1624:32:const ticker_info_t* us_ticker_get_info()	0	static
+mbed_retarget.cpp:1634:32:const ticker_info_t* lp_ticker_get_info()	0	static

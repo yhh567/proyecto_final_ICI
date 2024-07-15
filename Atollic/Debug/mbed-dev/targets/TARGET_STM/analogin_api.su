@@ -1,0 +1,2 @@
+analogin_api.c:34:10:analogin_read_u16	8	static
+analogin_api.c:42:7:analogin_read	8	static

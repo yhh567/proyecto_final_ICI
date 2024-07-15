@@ -1,0 +1,5 @@
+sMotor.cpp:18:1:sMotor::sMotor(PinName, PinName, PinName, PinName)	32	static
+sMotor.cpp:25:6:void sMotor::microstep(int)	0	static
+sMotor.cpp:83:6:void sMotor::anticlockwise()	16	static
+sMotor.cpp:150:6:void sMotor::clockwise()	16	static
+sMotor.cpp:216:6:void sMotor::step(int, int, int)	16	static

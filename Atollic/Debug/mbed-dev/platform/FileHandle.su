@@ -1,0 +1,12 @@
+FileHandle.h:98:17:virtual int mbed::FileHandle::sync()	0	static
+FileHandle.h:109:17:virtual int mbed::FileHandle::isatty()	0	static
+FileHandle.h:120:19:virtual off_t mbed::FileHandle::tell()	8	static
+FileHandle.h:129:18:virtual void mbed::FileHandle::rewind()	8	static
+FileHandle.h:153:19:virtual off_t mbed::FileHandle::lseek(off_t, int)	8	static
+FileHandle.h:167:17:virtual int mbed::FileHandle::fsync()	8	static
+FileHandle.h:179:19:virtual off_t mbed::FileHandle::flen()	8	static
+FileHandle.h:193:17:virtual int mbed::FileHandle::set_blocking(bool)	0	static
+FileHandle.h:202:18:virtual bool mbed::FileHandle::is_blocking() const	0	static
+FileHandle.h:217:19:virtual short int mbed::FileHandle::poll(short int) const	0	static
+FileHandle.h:262:18:virtual void mbed::FileHandle::sigio(mbed::Callback<void()>)	0	static
+FileHandle.cpp:22:7:virtual off_t mbed::FileHandle::size()	16	static

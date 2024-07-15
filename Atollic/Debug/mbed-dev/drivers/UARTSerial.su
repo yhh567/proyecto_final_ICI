@@ -1,0 +1,36 @@
+FileHandle.h:120:19:virtual off_t mbed::FileHandle::tell()	8	static
+FileHandle.h:129:18:virtual void mbed::FileHandle::rewind()	8	static
+FileHandle.h:153:19:virtual off_t mbed::FileHandle::lseek(off_t, int)	8	static
+FileHandle.h:167:17:virtual int mbed::FileHandle::fsync()	8	static
+FileHandle.h:179:19:virtual off_t mbed::FileHandle::flen()	8	static
+UARTSerial.h:139:17:virtual int mbed::UARTSerial::set_blocking(bool)	0	static
+UARTSerial.h:149:18:virtual bool mbed::UARTSerial::is_blocking() const	0	static
+UARTSerial.cpp:88:5:virtual int mbed::UARTSerial::close()	0	static
+UARTSerial.cpp:95:5:virtual int mbed::UARTSerial::isatty()	0	static
+UARTSerial.cpp:101:7:virtual off_t mbed::UARTSerial::seek(off_t, int)	0	static
+UARTSerial.cpp:262:6:virtual void mbed::UARTSerial::lock()	0	static
+UARTSerial.cpp:269:6:virtual void mbed::UARTSerial::unlock()	0	static
+UARTSerial.cpp:274:6:virtual void mbed::UARTSerial::api_lock()	0	static
+UARTSerial.cpp:279:6:virtual void mbed::UARTSerial::api_unlock()	0	static
+Callback.h:655:17:static void mbed::Callback<R()>::function_move(void*, const void*) [with F = mbed::Callback<void()>::method_context<mbed::UARTSerial, void (mbed::UARTSerial::*)()>; R = void]	8	static
+Callback.h:661:17:static void mbed::Callback<R()>::function_dtor(void*) [with F = mbed::Callback<void()>::method_context<mbed::UARTSerial, void (mbed::UARTSerial::*)()>; R = void]	0	static
+Callback.h:649:14:static R mbed::Callback<R()>::function_call(const void*) [with F = mbed::Callback<void()>::method_context<mbed::UARTSerial, void (mbed::UARTSerial::*)()>; R = void]	8	static
+UARTSerial.cpp:42:1:mbed::UARTSerial::~UARTSerial()	8	static
+UARTSerial.cpp:42:1:virtual mbed::UARTSerial::~UARTSerial()	8	static
+UARTSerial.cpp:124:6:virtual void mbed::UARTSerial::sigio(mbed::Callback<void()>)	16	static
+UARTSerial.cpp:52:6:void mbed::UARTSerial::set_baud(int)	8	static
+UARTSerial.cpp:72:6:void mbed::UARTSerial::set_format(int, mbed::SerialBase::Parity, int)	24	static
+UARTSerial.cpp:80:6:void mbed::UARTSerial::set_flow_control(mbed::SerialBase::Flow, PinName, PinName)	24	static
+UARTSerial.cpp:227:6:bool mbed::UARTSerial::hup() const	8	static
+UARTSerial.cpp:239:7:virtual short int mbed::UARTSerial::poll(short int) const	16	static
+UARTSerial.cpp:232:6:void mbed::UARTSerial::wake()	8	static
+UARTSerial.cpp:47:6:void mbed::UARTSerial::dcd_irq()	8	static
+UARTSerial.cpp:284:6:void mbed::UARTSerial::rx_irq()	48	static
+UARTSerial.cpp:307:6:void mbed::UARTSerial::tx_irq()	56	static
+UARTSerial.cpp:329:6:void mbed::UARTSerial::wait_ms(uint32_t)	8	static
+UARTSerial.cpp:108:5:virtual int mbed::UARTSerial::sync()	16	static
+Callback.h:3864:15:mbed::Callback<R()> mbed::callback(U*, R (T::*)()) [with T = mbed::UARTSerial; U = mbed::UARTSerial; R = void]	56	static
+UARTSerial.cpp:31:1:mbed::UARTSerial::UARTSerial(PinName, PinName, int)	40	static
+UARTSerial.cpp:57:6:void mbed::UARTSerial::set_data_carrier_detect(PinName, bool)	72	static
+UARTSerial.cpp:137:9:virtual ssize_t mbed::UARTSerial::write(const void*, size_t)	56	static
+UARTSerial.cpp:185:9:virtual ssize_t mbed::UARTSerial::read(void*, size_t)	64	static

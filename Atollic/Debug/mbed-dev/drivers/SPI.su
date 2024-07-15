@@ -1,0 +1,28 @@
+SPI.h:276:13:mbed::SPI::~SPI()	8	static
+SPI.cpp:123:6:virtual void mbed::SPI::lock()	0	static
+SPI.cpp:128:6:virtual void mbed::SPI::unlock()	0	static
+CThunk.h:194:17:static void CThunk<T>::trampoline(T*, void*, void (T::**)(void*)) [with T = mbed::SPI]	8	static
+CircularBuffer.h:81:5:mbed::CircularBuffer<T, BufferSize, CounterType>::~CircularBuffer() [with T = mbed::Transaction<mbed::SPI>; long unsigned int BufferSize = 2ul; CounterType = long unsigned int]	16	static
+SPI.h:276:13:virtual mbed::SPI::~SPI()	8	static
+SPI.cpp:273:1:void __static_initialization_and_destruction_0(int, int)	16	static
+SPI.cpp:84:6:void mbed::SPI::aquire()	16	static
+SPI.cpp:96:6:void mbed::SPI::_acquire()	16	static
+SPI.cpp:49:6:void mbed::SPI::format(int, int)	16	static
+SPI.cpp:65:6:void mbed::SPI::frequency(int)	16	static
+SPI.cpp:105:5:virtual int mbed::SPI::write(int)	16	static
+SPI.cpp:114:5:virtual int mbed::SPI::write(const char*, int, char*, int)	32	static
+SPI.cpp:31:1:mbed::SPI::SPI(PinName, PinName, PinName, PinName)	72	static
+SPI.cpp:133:6:void mbed::SPI::set_default_write_value(char)	16	static
+SPI.cpp:161:6:void mbed::SPI::clear_transfer_buffer()	8	static
+SPI.cpp:174:5:int mbed::SPI::set_dma_usage(DMAUsage)	16	static
+SPI.cpp:221:6:void mbed::SPI::lock_deep_sleep()	8	static
+SPI.cpp:212:6:void mbed::SPI::start_transfer(const void*, int, void*, int, unsigned char, const event_callback_t&, int)	80	static
+SPI.cpp:229:6:void mbed::SPI::unlock_deep_sleep()	8	static
+SPI.cpp:239:6:void mbed::SPI::start_transaction(mbed::transaction_t*)	32	static
+SPI.cpp:244:6:void mbed::SPI::dequeue_transaction()	64	static
+SPI.cpp:151:6:void mbed::SPI::abort_transfer()	8	static
+SPI.cpp:168:6:void mbed::SPI::abort_all_transfers()	8	static
+SPI.cpp:183:5:int mbed::SPI::queue_transfer(const void*, int, void*, int, unsigned char, const event_callback_t&, int)	128	static
+SPI.cpp:142:5:int mbed::SPI::transfer(const void*, int, void*, int, unsigned char, const event_callback_t&, int)	48	static
+SPI.cpp:256:6:void mbed::SPI::irq_handler_asynch()	16	static
+SPI.cpp:273:1:cpp)	8	static

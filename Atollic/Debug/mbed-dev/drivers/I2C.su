@@ -1,0 +1,19 @@
+I2C.h:154:13:mbed::I2C::~I2C()	8	static
+I2C.cpp:128:6:virtual void mbed::I2C::lock()	0	static
+I2C.cpp:133:6:virtual void mbed::I2C::unlock()	0	static
+CThunk.h:194:17:static void CThunk<T>::trampoline(T*, void*, void (T::**)(void*)) [with T = mbed::I2C]	8	static
+I2C.h:154:13:virtual mbed::I2C::~I2C()	8	static
+I2C.cpp:29:1:mbed::I2C::I2C(PinName, PinName)	48	static
+I2C.cpp:44:6:void mbed::I2C::frequency(int)	16	static
+I2C.cpp:57:6:void mbed::I2C::aquire()	8	static
+I2C.cpp:68:5:int mbed::I2C::write(int, const char*, int, bool)	40	static
+I2C.cpp:80:5:int mbed::I2C::write(int)	16	static
+I2C.cpp:89:5:int mbed::I2C::read(int, char*, int, bool)	40	static
+I2C.cpp:101:5:int mbed::I2C::read(int)	16	static
+I2C.cpp:114:6:void mbed::I2C::start()	8	static
+I2C.cpp:121:6:void mbed::I2C::stop()	8	static
+I2C.cpp:178:6:void mbed::I2C::lock_deep_sleep()	8	static
+I2C.cpp:140:5:int mbed::I2C::transfer(int, const char*, int, char*, int, const event_callback_t&, int, bool)	80	static
+I2C.cpp:186:6:void mbed::I2C::unlock_deep_sleep()	8	static
+I2C.cpp:158:6:void mbed::I2C::abort_transfer()	8	static
+I2C.cpp:166:6:void mbed::I2C::irq_handler_asynch()	16	static

@@ -1,0 +1,13 @@
+mbed_error.c:99:28:handle_error	72	static
+mbed_error.c:63:13:mbed_halt_system	8	static
+mbed_error.c:76:11:error	16	static
+mbed_error.c:173:21:mbed_get_first_error	0	static
+mbed_error.c:180:21:mbed_get_last_error	0	static
+mbed_error.c:187:5:mbed_get_error_count	0	static
+mbed_error.c:194:21:mbed_warning	16	static
+mbed_error.c:200:26:mbed_error	16	static
+mbed_error.c:215:21:mbed_set_error_hook	0	static
+mbed_error.c:227:21:mbed_get_first_error_info	8	static
+mbed_error.c:234:21:mbed_get_last_error_info	8	static
+mbed_error.c:241:21:mbed_make_error	0	static
+mbed_error.c:275:21:mbed_clear_all_errors	8	static

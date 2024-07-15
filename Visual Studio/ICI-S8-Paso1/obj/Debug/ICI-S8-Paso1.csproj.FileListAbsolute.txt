@@ -1,0 +1,35 @@
+D:\Universidad\gomezroz\GoogleDrive\ATC\DOC\ICI\2017-18\Practicas\S8-VisualStudio2\ICI-S8-Paso1\ICI-S8-Paso1\bin\Debug\ICI-S8-Paso1.exe.config
+D:\Universidad\gomezroz\GoogleDrive\ATC\DOC\ICI\2017-18\Practicas\S8-VisualStudio2\ICI-S8-Paso1\ICI-S8-Paso1\bin\Debug\ICI-S8-Paso1.exe
+D:\Universidad\gomezroz\GoogleDrive\ATC\DOC\ICI\2017-18\Practicas\S8-VisualStudio2\ICI-S8-Paso1\ICI-S8-Paso1\bin\Debug\ICI-S8-Paso1.pdb
+D:\Universidad\gomezroz\GoogleDrive\ATC\DOC\ICI\2017-18\Practicas\S8-VisualStudio2\ICI-S8-Paso1\ICI-S8-Paso1\obj\Debug\ICI-S8-Paso1.csprojResolveAssemblyReference.cache
+D:\Universidad\gomezroz\GoogleDrive\ATC\DOC\ICI\2017-18\Practicas\S8-VisualStudio2\ICI-S8-Paso1\ICI-S8-Paso1\obj\Debug\ICI_S8_Paso1.Properties.Resources.resources
+D:\Universidad\gomezroz\GoogleDrive\ATC\DOC\ICI\2017-18\Practicas\S8-VisualStudio2\ICI-S8-Paso1\ICI-S8-Paso1\obj\Debug\ICI-S8-Paso1.csproj.GenerateResource.Cache
+D:\Universidad\gomezroz\GoogleDrive\ATC\DOC\ICI\2017-18\Practicas\S8-VisualStudio2\ICI-S8-Paso1\ICI-S8-Paso1\obj\Debug\ICI-S8-Paso1.exe
+D:\Universidad\gomezroz\GoogleDrive\ATC\DOC\ICI\2017-18\Practicas\S8-VisualStudio2\ICI-S8-Paso1\ICI-S8-Paso1\obj\Debug\ICI-S8-Paso1.pdb
+D:\Universidad\gomezroz\GoogleDrive\ATC\DOC\ICI\2017-18\Practicas\S8-VisualStudio2\ICI-S8-Paso1\ICI-S8-Paso1\obj\Debug\ICI_S8_Paso1.Form1.resources
+E:\GDrive\ICI\2017-18\Practicas\S8-VisualStudio2\ICI-S8-Paso1 (1)\ICI-S8-Paso1\bin\Debug\ICI-S8-Paso1.exe.config
+E:\GDrive\ICI\2017-18\Practicas\S8-VisualStudio2\ICI-S8-Paso1 (1)\ICI-S8-Paso1\obj\Debug\ICI-S8-Paso1.exe
+E:\GDrive\ICI\2017-18\Practicas\S8-VisualStudio2\ICI-S8-Paso1 (1)\ICI-S8-Paso1\obj\Debug\ICI-S8-Paso1.pdb
+E:\OneDrive - UNIVERSIDAD DE SEVILLA\ATC\ICI\2020-21\prácticas\S8\ICI-S8-Paso1\ICI-S8-Paso1\obj\Debug\ICI-S8-Paso1.csprojAssemblyReference.cache
+E:\OneDrive - UNIVERSIDAD DE SEVILLA\ATC\ICI\2020-21\prácticas\S8\ICI-S8-Paso1\ICI-S8-Paso1\obj\Debug\ICI_S8_Paso1.Form1.resources
+E:\OneDrive - UNIVERSIDAD DE SEVILLA\ATC\ICI\2020-21\prácticas\S8\ICI-S8-Paso1\ICI-S8-Paso1\obj\Debug\ICI_S8_Paso1.Properties.Resources.resources
+E:\OneDrive - UNIVERSIDAD DE SEVILLA\ATC\ICI\2020-21\prácticas\S8\ICI-S8-Paso1\ICI-S8-Paso1\obj\Debug\ICI-S8-Paso1.csproj.GenerateResource.cache
+E:\OneDrive - UNIVERSIDAD DE SEVILLA\ATC\ICI\2020-21\prácticas\S8\ICI-S8-Paso1\ICI-S8-Paso1\obj\Debug\ICI-S8-Paso1.csproj.CoreCompileInputs.cache
+E:\OneDrive - UNIVERSIDAD DE SEVILLA\ATC\ICI\2020-21\prácticas\S8\ICI-S8-Paso1\ICI-S8-Paso1\obj\Debug\ICI-S8-Paso1.exe
+E:\OneDrive - UNIVERSIDAD DE SEVILLA\ATC\ICI\2020-21\prácticas\S8\ICI-S8-Paso1\ICI-S8-Paso1\obj\Debug\ICI-S8-Paso1.pdb
+E:\OneDrive - UNIVERSIDAD DE SEVILLA\ATC\ICI\2020-21\prácticas\S8\ICI-S8-Paso1\ICI-S8-Paso1\bin\Debug\ICI-S8-Paso1.exe.config
+E:\OneDrive - UNIVERSIDAD DE SEVILLA\ATC\ICI\2020-21\prácticas\S8\ICI-S8-Paso1\ICI-S8-Paso1\bin\Debug\ICI-S8-Paso1.exe
+E:\OneDrive - UNIVERSIDAD DE SEVILLA\ATC\ICI\2020-21\prácticas\S8\ICI-S8-Paso1\ICI-S8-Paso1\bin\Debug\ICI-S8-Paso1.pdb
+C:\Users\Yuhao Huang\Desktop\Visual_Studio\ICI_baseN_p8\ICI-S8-Paso1\bin\Debug\ICI-S8-Paso1.exe.config
+C:\Users\Yuhao Huang\Desktop\Visual_Studio\ICI_baseN_p8\ICI-S8-Paso1\obj\Debug\ICI-S8-Paso1.exe
+C:\Users\Yuhao Huang\Desktop\Visual_Studio\ICI_baseN_p8\ICI-S8-Paso1\obj\Debug\ICI-S8-Paso1.pdb
+C:\Users\Yuhao Huang\Desktop\Visual_Studio\ICI_baseN_p8\ICI-S8-Paso1\bin\Debug\ICI-S8-Paso1.exe
+C:\Users\Yuhao Huang\Desktop\Visual_Studio\ICI_baseN_p8\ICI-S8-Paso1\bin\Debug\ICI-S8-Paso1.pdb
+C:\Users\Yuhao Huang\Desktop\Visual_Studio\ICI_baseN_p8\ICI-S8-Paso1\obj\Debug\ICI-S8-Paso1.csprojResolveAssemblyReference.cache
+C:\Users\Yuhao Huang\Desktop\Visual_Studio\ICI_baseN_p8\ICI-S8-Paso1\obj\Debug\ICI_S8_Paso1.Form1.resources
+C:\Users\Yuhao Huang\Desktop\Visual_Studio\ICI_baseN_p8\ICI-S8-Paso1\obj\Debug\ICI_S8_Paso1.Properties.Resources.resources
+C:\Users\Yuhao Huang\Desktop\Visual_Studio\ICI_baseN_p8\ICI-S8-Paso1\obj\Debug\ICI-S8-Paso1.csproj.GenerateResource.Cache
+C:\Users\Yuhao Huang\Desktop\Visual_Studio\ICI_baseN_p8\ICI-S8-Paso1\bin\Debug\LBIndustrialCtrls.dll
+C:\Users\Yuhao Huang\Desktop\ICI_trabajofinal\Visual Studio\ICI-S8-Paso1\bin\Debug\ICI-S8-Paso1.exe.config
+C:\Users\Yuhao Huang\Desktop\ICI_trabajofinal\Visual Studio\ICI-S8-Paso1\obj\Debug\ICI-S8-Paso1.exe
+C:\Users\Yuhao Huang\Desktop\ICI_trabajofinal\Visual Studio\ICI-S8-Paso1\obj\Debug\ICI-S8-Paso1.pdb

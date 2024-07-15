@@ -1,0 +1,26 @@
+AnalogIn.h:111:13:mbed::AnalogIn::~AnalogIn()	0	static
+AnalogIn.h:118:18:virtual void mbed::AnalogIn::lock()	0	static
+AnalogIn.h:123:18:virtual void mbed::AnalogIn::unlock()	0	static
+main.cpp:225:6:void rutina_mpap()	0	static
+Callback.h:649:14:static R mbed::Callback<R()>::function_call(const void*) [with F = void (*)(); R = void]	8	static
+Callback.h:655:17:static void mbed::Callback<R()>::function_move(void*, const void*) [with F = void (*)(); R = void]	0	static
+Callback.h:661:17:static void mbed::Callback<R()>::function_dtor(void*) [with F = void (*)(); R = void]	0	static
+main.cpp:100:6:void rutina_temp()	16	static
+main.cpp:300:6:void rutina_display()	8	static
+ssd1306.h:262:13:SSD1306::~SSD1306()	8	static
+AnalogIn.h:111:13:virtual mbed::AnalogIn::~AnalogIn()	8	static
+PwmOut.h:67:5:mbed::PwmOut::~PwmOut()	8	static
+Ticker.h:149:13:mbed::Ticker::~Ticker()	8	static
+Serial.h:53:7:mbed::Serial::~Serial()	8	static
+ssd1306.h:262:13:virtual SSD1306::~SSD1306()	8	static
+main.cpp:319:6:void leer_serie()	88	static
+AnalogIn.h:60:5:mbed::AnalogIn::AnalogIn(PinName)	8	static
+Ticker.h:69:5:mbed::Ticker::Ticker()	8	static
+main.cpp:424:1:void __static_initialization_and_destruction_0(int, int)	32	static
+Ticker.h:119:10:void mbed::Ticker::attach_us(mbed::Callback<void()>, us_timestamp_t)	24	static
+Ticker.h:149:13:virtual mbed::Ticker::~Ticker()	8	static
+main.cpp:114:6:void rutina_barrido()	16	static
+main.cpp:60:6:void rutina_servo()	16	static
+main.cpp:411:5:int main()	40	static
+Serial.h:53:7:virtual mbed::Serial::~Serial()	8	static
+main.cpp:424:1:cpp)	8	static

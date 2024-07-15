@@ -1,0 +1,4 @@
+mbed_crc_api.c:11:6:hal_crc_is_supported	0	static
+mbed_crc_api.c:32:6:hal_crc_compute_partial_start	16	static
+mbed_crc_api.c:56:6:hal_crc_compute_partial	8	static
+mbed_crc_api.c:63:10:hal_crc_get_result	0	static

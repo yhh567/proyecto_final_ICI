@@ -1,0 +1,12 @@
+FlashIAP.cpp:45:1:mbed::FlashIAP::FlashIAP()	0	static
+FlashIAP.cpp:50:1:mbed::FlashIAP::~FlashIAP()	0	static
+FlashIAP.cpp:69:5:int mbed::FlashIAP::deinit()	16	static
+FlashIAP.cpp:82:5:int mbed::FlashIAP::read(void*, uint32_t, uint32_t)	16	static
+FlashIAP.cpp:142:6:bool mbed::FlashIAP::is_aligned_to_sector(uint32_t, uint32_t)	16	static
+FlashIAP.cpp:153:5:int mbed::FlashIAP::erase(uint32_t, uint32_t)	32	static
+FlashIAP.cpp:186:10:uint32_t mbed::FlashIAP::get_page_size() const	8	static
+FlashIAP.cpp:55:5:int mbed::FlashIAP::init()	16	static
+FlashIAP.cpp:91:5:int mbed::FlashIAP::program(const void*, uint32_t, uint32_t)	64	static
+FlashIAP.cpp:191:10:uint32_t mbed::FlashIAP::get_sector_size(uint32_t) const	8	static
+FlashIAP.cpp:196:10:uint32_t mbed::FlashIAP::get_flash_start() const	8	static
+FlashIAP.cpp:201:10:uint32_t mbed::FlashIAP::get_flash_size() const	8	static

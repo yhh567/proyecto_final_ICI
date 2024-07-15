@@ -1,0 +1,6 @@
+sleep.c:104:13:ForceOscOutofDeepSleep	64	static
+sleep.c:57:13:ForcePeriphOutofDeepSleep	32	static
+sleep.c:142:13:ForceClockOutofDeepSleep	8	static
+sleep.c:42:13:wait_loop	16	static
+sleep.c:148:6:hal_sleep	8	static
+sleep.c:162:6:hal_deepsleep	8	static

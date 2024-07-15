@@ -1,0 +1,7 @@
+lp_ticker.c:241:22:lp_ticker_get_info	0	static
+lp_ticker.c:256:10:lp_ticker_read	8	static
+lp_ticker.c:267:6:lp_ticker_fire_interrupt	8	static
+lp_ticker.c:272:6:lp_ticker_disable_interrupt	8	static
+lp_ticker.c:250:6:lp_ticker_init	8	static
+lp_ticker.c:261:6:lp_ticker_set_interrupt	8	static
+lp_ticker.c:277:6:lp_ticker_clear_interrupt	0	static

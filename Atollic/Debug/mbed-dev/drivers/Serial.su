@@ -1,0 +1,15 @@
+FileHandle.h:153:19:virtual off_t mbed::FileHandle::lseek(off_t, int)	8	static
+FileHandle.h:167:17:virtual int mbed::FileHandle::fsync()	8	static
+FileHandle.h:179:19:virtual off_t mbed::FileHandle::flen()	8	static
+FileHandle.h:193:17:virtual int mbed::FileHandle::set_blocking(bool)	0	static
+FileHandle.h:202:18:virtual bool mbed::FileHandle::is_blocking() const	0	static
+FileHandle.h:217:19:virtual short int mbed::FileHandle::poll(short int) const	0	static
+FileHandle.h:262:18:virtual void mbed::FileHandle::sigio(mbed::Callback<void()>)	0	static
+Serial.cpp:43:6:virtual void mbed::Serial::lock()	0	static
+Serial.cpp:48:6:virtual void mbed::Serial::unlock()	0	static
+Serial.cpp:31:5:virtual int mbed::Serial::_getc()	8	static
+Serial.cpp:37:5:virtual int mbed::Serial::_putc(int)	8	static
+Serial.h:53:7:mbed::Serial::~Serial()	8	static
+Serial.h:53:7:virtual mbed::Serial::~Serial()	8	static
+Serial.cpp:23:1:mbed::Serial::Serial(PinName, PinName, const char*, int)	16	static
+Serial.cpp:27:1:mbed::Serial::Serial(PinName, PinName, int)	8	static

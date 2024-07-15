@@ -1,0 +1,27 @@
+SerialBase.cpp:100:6:static void mbed::SerialBase::_irq_handler(uint32_t, SerialIrq)	8	static
+SerialBase.cpp:138:6:virtual void mbed::SerialBase::lock()	0	static
+SerialBase.cpp:143:6:virtual void mbed::SerialBase::unlock()	0	static
+CThunk.h:194:17:static void CThunk<T>::trampoline(T*, void*, void (T::**)(void*)) [with T = mbed::SerialBase]	8	static
+SerialBase.cpp:279:6:void mbed::SerialBase::interrupt_handler_asynch()	16	static
+SerialBase.cpp:25:1:mbed::SerialBase::SerialBase(PinName, PinName, int)	64	static
+SerialBase.cpp:44:6:void mbed::SerialBase::baud(int)	16	static
+SerialBase.cpp:52:6:void mbed::SerialBase::format(int, mbed::SerialBase::Parity, int)	24	static
+SerialBase.cpp:59:5:int mbed::SerialBase::readable()	16	static
+SerialBase.cpp:68:5:int mbed::SerialBase::writeable()	16	static
+SerialBase.cpp:76:6:void mbed::SerialBase::attach(mbed::Callback<void()>, mbed::SerialBase::IrqType)	40	static
+SerialBase.cpp:148:1:mbed::SerialBase::~SerialBase()	32	static
+SerialBase.cpp:148:1:virtual mbed::SerialBase::~SerialBase()	8	static
+SerialBase.cpp:108:5:int mbed::SerialBase::_base_getc()	8	static
+SerialBase.cpp:114:5:int mbed::SerialBase::_base_putc(int)	8	static
+SerialBase.cpp:121:6:void mbed::SerialBase::send_break()	16	static
+SerialBase.cpp:159:6:void mbed::SerialBase::set_flow_control(mbed::SerialBase::Flow, PinName, PinName)	24	static
+SerialBase.cpp:204:6:void mbed::SerialBase::start_write(const void*, int, char, const event_callback_t&, int)	64	static
+SerialBase.cpp:186:5:int mbed::SerialBase::write(const uint8_t*, int, const event_callback_t&, int)	32	static
+SerialBase.cpp:195:5:int mbed::SerialBase::write(const uint16_t*, int, const event_callback_t&, int)	32	static
+SerialBase.cpp:213:6:void mbed::SerialBase::abort_write()	32	static
+SerialBase.cpp:223:6:void mbed::SerialBase::abort_read()	32	static
+SerialBase.cpp:233:5:int mbed::SerialBase::set_dma_usage_tx(DMAUsage)	16	static
+SerialBase.cpp:242:5:int mbed::SerialBase::set_dma_usage_rx(DMAUsage)	16	static
+SerialBase.cpp:271:6:void mbed::SerialBase::start_read(void*, int, char, const event_callback_t&, int, unsigned char)	72	static
+SerialBase.cpp:251:5:int mbed::SerialBase::read(uint8_t*, int, const event_callback_t&, int, unsigned char)	48	static
+SerialBase.cpp:261:5:int mbed::SerialBase::read(uint16_t*, int, const event_callback_t&, int, unsigned char)	48	static

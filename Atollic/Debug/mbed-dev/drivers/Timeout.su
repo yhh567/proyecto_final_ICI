@@ -1,0 +1,3 @@
+Timeout.cpp:20:6:virtual void mbed::Timeout::handler()	24	static
+Timeout.h:57:7:mbed::Timeout::~Timeout()	8	static
+Timeout.h:57:7:virtual mbed::Timeout::~Timeout()	8	static

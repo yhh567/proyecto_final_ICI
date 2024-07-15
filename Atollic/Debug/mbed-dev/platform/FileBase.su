@@ -1,0 +1,7 @@
+FileBase.cpp:25:1:mbed::FileBase::FileBase(const char*, mbed::PathType)	0	static
+FileBase.cpp:63:11:static mbed::FileBase* mbed::FileBase::lookup(const char*, unsigned int)	24	static
+FileBase.cpp:79:11:static mbed::FileBase* mbed::FileBase::get(int)	0	static
+FileBase.cpp:97:13:const char* mbed::FileBase::getName()	0	static
+FileBase.cpp:103:10:mbed::PathType mbed::FileBase::getPathType()	0	static
+FileBase.cpp:40:1:mbed::FileBase::~FileBase()	8	static
+FileBase.cpp:40:1:virtual mbed::FileBase::~FileBase()	8	static

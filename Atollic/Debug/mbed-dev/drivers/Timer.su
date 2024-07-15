@@ -1,0 +1,12 @@
+Timer.cpp:37:1:mbed::Timer::~Timer()	8	static
+Timer.cpp:49:6:void mbed::Timer::start()	8	static
+Timer.cpp:98:16:us_timestamp_t mbed::Timer::slicetime()	16	static
+Timer.cpp:62:6:void mbed::Timer::stop()	8	static
+Timer.cpp:90:16:us_timestamp_t mbed::Timer::read_high_resolution_us()	16	static
+Timer.cpp:75:5:int mbed::Timer::read_us()	8	static
+Timer.cpp:80:7:float mbed::Timer::read()	8	static
+Timer.cpp:85:5:int mbed::Timer::read_ms()	8	static
+Timer.cpp:109:6:void mbed::Timer::reset()	8	static
+Timer.cpp:24:1:mbed::Timer::Timer()	8	static
+Timer.cpp:29:1:mbed::Timer::Timer(const ticker_data_t*)	16	static
+Timer.cpp:117:1:mbed::Timer::operator float()	8	static

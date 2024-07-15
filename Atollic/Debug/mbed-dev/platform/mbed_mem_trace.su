@@ -1,0 +1,8 @@
+mbed_mem_trace.cpp:44:6:void mbed_mem_trace_set_callback(mbed_mem_trace_cb_t)	0	static
+mbed_mem_trace.cpp:49:6:void mbed_mem_trace_lock()	0	static
+mbed_mem_trace.cpp:55:6:void mbed_mem_trace_unlock()	0	static
+mbed_mem_trace.cpp:61:7:void* mbed_mem_trace_malloc(void*, size_t, void*)	16	static
+mbed_mem_trace.cpp:71:7:void* mbed_mem_trace_realloc(void*, void*, size_t, void*)	24	static
+mbed_mem_trace.cpp:81:7:void* mbed_mem_trace_calloc(void*, size_t, size_t, void*)	24	static
+mbed_mem_trace.cpp:91:6:void mbed_mem_trace_free(void*, void*)	16	static
+mbed_mem_trace.cpp:100:6:)	24	static

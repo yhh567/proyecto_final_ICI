@@ -1,0 +1,2 @@
+analogin_device.c:39:6:analogin_init	32	static
+analogin_device.c:95:10:adc_read	24	static

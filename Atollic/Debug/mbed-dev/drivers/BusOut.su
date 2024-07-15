@@ -1,0 +1,12 @@
+BusOut.cpp:109:6:virtual void mbed::BusOut::lock()	0	static
+BusOut.cpp:114:6:virtual void mbed::BusOut::unlock()	0	static
+BusOut.cpp:47:1:mbed::BusOut::~BusOut()	16	static
+BusOut.cpp:47:1:virtual mbed::BusOut::~BusOut()	8	static
+BusOut.cpp:21:1:mbed::BusOut::BusOut(PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName)	96	static
+BusOut.cpp:35:1:mbed::BusOut::BusOut(PinName*)	32	static
+BusOut.cpp:57:6:void mbed::BusOut::write(int)	16	static
+BusOut.cpp:68:5:int mbed::BusOut::read()	16	static
+BusOut.cpp:81:9:mbed::BusOut& mbed::BusOut::operator=(int)	8	static
+BusOut.cpp:88:9:mbed::BusOut& mbed::BusOut::operator=(mbed::BusOut&)	8	static
+BusOut.cpp:95:13:mbed::DigitalOut& mbed::BusOut::operator[](int)	0	static
+BusOut.cpp:103:1:mbed::BusOut::operator int()	8	static

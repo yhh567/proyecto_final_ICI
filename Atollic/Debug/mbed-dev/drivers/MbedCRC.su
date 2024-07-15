@@ -1,0 +1,20 @@
+MbedCRC.h:125:13:mbed::MbedCRC<polynomial, width>::~MbedCRC() [with long unsigned int polynomial = 32773ul; unsigned char width = 16u]	0	static
+MbedCRC.h:125:13:mbed::MbedCRC<polynomial, width>::~MbedCRC() [with long unsigned int polynomial = 4129ul; unsigned char width = 16u]	0	static
+MbedCRC.h:125:13:mbed::MbedCRC<polynomial, width>::~MbedCRC() [with long unsigned int polynomial = 9ul; unsigned char width = 7u]	0	static
+MbedCRC.h:125:13:mbed::MbedCRC<polynomial, width>::~MbedCRC() [with long unsigned int polynomial = 7ul; unsigned char width = 8u]	0	static
+MbedCRC.h:125:13:mbed::MbedCRC<polynomial, width>::~MbedCRC() [with long unsigned int polynomial = 79764919ul; unsigned char width = 32u]	0	static
+MbedCRC.h:125:13:mbed::MbedCRC<polynomial, width>::~MbedCRC() [with long unsigned int polynomial = 79764919ul; unsigned char width = 32u]	8	static
+MbedCRC.h:125:13:mbed::MbedCRC<polynomial, width>::~MbedCRC() [with long unsigned int polynomial = 7ul; unsigned char width = 8u]	8	static
+MbedCRC.h:125:13:mbed::MbedCRC<polynomial, width>::~MbedCRC() [with long unsigned int polynomial = 9ul; unsigned char width = 7u]	8	static
+MbedCRC.h:125:13:mbed::MbedCRC<polynomial, width>::~MbedCRC() [with long unsigned int polynomial = 4129ul; unsigned char width = 16u]	8	static
+MbedCRC.h:125:13:mbed::MbedCRC<polynomial, width>::~MbedCRC() [with long unsigned int polynomial = 32773ul; unsigned char width = 16u]	8	static
+MbedCRC.cpp:28:1:mbed::MbedCRC<polynomial, width>::MbedCRC(uint32_t, uint32_t, bool, bool) [with long unsigned int polynomial = 79764919ul; unsigned char width = 32u]	40	static
+MbedCRC.cpp:36:1:mbed::MbedCRC<polynomial, width>::MbedCRC(uint32_t, uint32_t, bool, bool) [with long unsigned int polynomial = 7ul; unsigned char width = 8u]	40	static
+MbedCRC.cpp:44:1:mbed::MbedCRC<polynomial, width>::MbedCRC(uint32_t, uint32_t, bool, bool) [with long unsigned int polynomial = 9ul; unsigned char width = 7u]	40	static
+MbedCRC.cpp:52:1:mbed::MbedCRC<polynomial, width>::MbedCRC(uint32_t, uint32_t, bool, bool) [with long unsigned int polynomial = 4129ul; unsigned char width = 16u]	40	static
+MbedCRC.cpp:60:1:mbed::MbedCRC<polynomial, width>::MbedCRC(uint32_t, uint32_t, bool, bool) [with long unsigned int polynomial = 32773ul; unsigned char width = 16u]	40	static
+MbedCRC.cpp:68:1:mbed::MbedCRC<polynomial, width>::MbedCRC() [with long unsigned int polynomial = 79764919ul; unsigned char width = 32u]	32	static
+MbedCRC.cpp:76:1:mbed::MbedCRC<polynomial, width>::MbedCRC() [with long unsigned int polynomial = 32773ul; unsigned char width = 16u]	32	static
+MbedCRC.cpp:84:1:mbed::MbedCRC<polynomial, width>::MbedCRC() [with long unsigned int polynomial = 4129ul; unsigned char width = 16u]	32	static
+MbedCRC.cpp:92:1:mbed::MbedCRC<polynomial, width>::MbedCRC() [with long unsigned int polynomial = 9ul; unsigned char width = 7u]	32	static
+MbedCRC.cpp:100:1:mbed::MbedCRC<polynomial, width>::MbedCRC() [with long unsigned int polynomial = 7ul; unsigned char width = 8u]	32	static

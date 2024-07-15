@@ -1,0 +1,10 @@
+BusIn.cpp:81:6:virtual void mbed::BusIn::lock()	0	static
+BusIn.cpp:86:6:virtual void mbed::BusIn::unlock()	0	static
+BusIn.cpp:47:1:mbed::BusIn::~BusIn()	16	static
+BusIn.cpp:47:1:virtual mbed::BusIn::~BusIn()	8	static
+BusIn.cpp:21:1:mbed::BusIn::BusIn(PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName)	96	static
+BusIn.cpp:35:1:mbed::BusIn::BusIn(PinName*)	32	static
+BusIn.cpp:57:5:int mbed::BusIn::read()	16	static
+BusIn.cpp:70:6:void mbed::BusIn::mode(PinMode)	24	static
+BusIn.cpp:91:1:mbed::BusIn::operator int()	8	static
+BusIn.cpp:97:12:mbed::DigitalIn& mbed::BusIn::operator[](int)	0	static

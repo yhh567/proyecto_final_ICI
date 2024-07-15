@@ -1,0 +1,5 @@
+mbed_stats.c:20:6:mbed_stats_cpu_get	8	static
+mbed_stats.c:33:6:mbed_stats_stack_get	8	static
+mbed_stats.c:61:8:mbed_stats_stack_get_each	8	static
+mbed_stats.c:92:8:mbed_stats_thread_get_each	8	static
+mbed_stats.c:121:6:mbed_stats_sys_get	8	static

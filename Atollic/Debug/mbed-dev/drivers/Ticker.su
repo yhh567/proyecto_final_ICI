@@ -1,0 +1,5 @@
+Ticker.cpp:47:6:virtual void mbed::Ticker::handler()	8	static
+Ticker.cpp:25:6:void mbed::Ticker::detach()	32	static
+Ticker.h:149:13:mbed::Ticker::~Ticker()	8	static
+Ticker.h:149:13:virtual mbed::Ticker::~Ticker()	8	static
+Ticker.cpp:38:6:void mbed::Ticker::setup(us_timestamp_t)	16	static

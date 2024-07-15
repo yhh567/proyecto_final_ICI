@@ -1,0 +1,11 @@
+serial_api.c:208:6:serial_free	8	static
+serial_api.c:470:5:serial_readable	0	static
+serial_api.c:484:5:serial_writable	0	static
+serial_api.c:493:6:serial_pinout_tx	8	static
+serial_api.c:498:6:serial_break_clear	0	static
+serial_api.c:507:19:init_uart	16	static
+serial_api.c:340:6:serial_baud	8	static
+serial_api.c:408:6:serial_format	16	static
+serial_api.c:551:8:get_uart_index	0	static
+serial_api.c:50:6:serial_init	40	static
+serial_api.c:667:5:serial_is_tx_ongoing	0	static

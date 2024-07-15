@@ -1,0 +1,6 @@
+port_api.c:41:9:port_pin	0	static
+port_api.c:63:6:port_dir	16	static
+port_api.c:46:6:port_init	24	static
+port_api.c:78:6:port_mode	16	static
+port_api.c:88:6:port_write	8	static
+port_api.c:93:5:port_read	0	static

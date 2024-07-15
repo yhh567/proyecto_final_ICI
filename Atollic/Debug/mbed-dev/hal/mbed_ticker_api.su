@@ -1,0 +1,15 @@
+mbed_ticker_api.c:82:13:set_handler	0	static
+mbed_ticker_api.c:106:23:convert_timestamp	12	static
+mbed_ticker_api.c:121:13:update_present_time	40	static
+mbed_ticker_api.c:170:20:compute_tick	16	static
+mbed_ticker_api.c:208:5:_ticker_match_interval_passed	0	static
+mbed_ticker_api.c:230:13:schedule_interrupt	16	static
+mbed_ticker_api.c:28:13:initialize	40	static
+mbed_ticker_api.c:274:6:ticker_set_handler	16	static
+mbed_ticker_api.c:283:6:ticker_irq_handler	16	static
+mbed_ticker_api.c:340:6:ticker_insert_event_us	24	static
+mbed_ticker_api.c:320:6:ticker_insert_event	32	static
+mbed_ticker_api.c:379:6:ticker_remove_event	16	static
+mbed_ticker_api.c:408:16:ticker_read_us	8	static
+mbed_ticker_api.c:403:13:ticker_read	8	static
+mbed_ticker_api.c:419:5:ticker_get_next_timestamp	16	static
