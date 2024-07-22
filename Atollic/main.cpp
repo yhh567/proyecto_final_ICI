@@ -43,7 +43,7 @@ int Estado_servo=0;				// Estados del servo. 1=Estado Inicial, 2=Abriendo, 3=Pau
 float intervalo = 0.05;			//
 
 
-// Variables para el motor paso a paso //
+// Variables para el motor paso a paso
 int dir=0;
 int time_pap;					// Tiempo entrepasos
 int vel_motor;
@@ -60,7 +60,7 @@ int enable_AC=0;							// V.Bandera abre/cierra del servo
 void rutina_servo(){
 
 
-	vpot= pot.read();		// Leer potenciometro
+	vpot= pot.read();									// Leer potenciometro
 
 	// Mover servo con potenciometro
 	if (enable_pot_servo==1){
@@ -101,11 +101,11 @@ void rutina_temp()
 {
 	if(enable_temp==1){
 
-		temp = stemp.read()*330;         // Leer temperatura
+		temp = stemp.read()*330;	// Leer temperatura
 
 		trama[0]=   0x30;
-		trama[1]=  (char) temp;			 					// Parte entera de la temperatura
-		trama[2]=  (char)((temp-trama[1])*100.0); 			// Parte decimal, solo dos decimales.
+		trama[1]=  (char) temp;			 			// Parte entera de la temperatura
+		trama[2]=  (char)((temp-trama[1])*100.0); 	// Parte decimal, solo dos decimales.
 		trama[3]=   0xE0;
 		pc.printf(trama);
 	}
@@ -160,8 +160,6 @@ void rutina_barrido(){
 			trama[3]= 0xE0;
 			pc.printf(trama);
 
-
-
 		}else{					// En otro caso, los grados son 90 grados. Siguiente estado es Pausa
 
 
@@ -170,12 +168,9 @@ void rutina_barrido(){
 		}
 
 
-
 	}
 	// Estado de Pausa
 	else if(Estado_servo==3){
-
-
 
 		if(i==0){
 
@@ -194,7 +189,7 @@ void rutina_barrido(){
 
 		if(grados>0){				// Si grados es mayor que 0, calculo los grados correspondiente al movimiento
 
-			grados=90-i*vel_barrido*intervalo;					// i restanndo para ir hacia atr�s
+			grados=90-i*vel_barrido*intervalo;					// i restanndo para ir hacia atras
 			anchopulso_servo = (grados*1000/90+1000);
 			pwm.pulsewidth_us(anchopulso_servo);
 			i++;
@@ -211,9 +206,6 @@ void rutina_barrido(){
 			Estado_servo=1;			// Estado inicial
 
 			enable_AC=0;			// Desactivo V.Bandera
-
-
-
 
 		}
 
@@ -243,7 +235,7 @@ void rutina_mpap(){
 
 			if(numfase<=0){		// Si llega a 0, numfase lo pongo a 4
 
-				numfase = 4;	//
+				numfase = 4;
 
 			}
 		}
@@ -254,36 +246,24 @@ void rutina_mpap(){
 			IN2=1;
 			IN3=0;
 			IN4=0;
-
-
-
 			break;
 		case 2:
 			IN1=0;
 			IN2=1;
 			IN3=1;
 			IN4=0;
-
-
-
 			break;
 		case 3:
 			IN1=0;
 			IN2=0;
 			IN3=1;
 			IN4=1;
-
-
-
 			break;
 		case 4:
 			IN1=1;
 			IN2=0;
 			IN3=0;
 			IN4=1;
-
-
-
 			break;
 
 		}
@@ -291,9 +271,6 @@ void rutina_mpap(){
 
 
 }
-
-
-
 
 
 //------------------------------------RUTINA DISPLAY------------------------------------//
@@ -349,6 +326,7 @@ void leer_serie()
 			}if(grados>=90){
 				grados=90;
 			}
+
 		}else if(trama_rx[0]==0x41){				// "A" Movimiento de apertura y cierre del servo
 
 			enable_servo=0;							// Desactivar control del servo-pot y servo
@@ -356,15 +334,13 @@ void leer_serie()
 			enable_AC = 1;							// Activar abre cierra
 			espera=trama_rx[1];
 			vel_barrido=trama_rx[2];
-			Estado_servo=1;							// M�quina de estado. Estado inicial
-
-
+			Estado_servo=1;							// Maquina de estado. Estado inicial
 
 		}
 		else if(trama_rx[0]==0x4D){					// "M" Girar el motor paso a paso a la velocidad indicada
 
 			vel_motor=trama_rx[1];
-			// Anotaci�n: con rpm superior a 10, el motor paso a paso no se observa movimiento
+			// Anotacion: con rpm superior a 10, el motor paso a paso no se observa movimiento
 			time_pap = (60.0/(vel_motor*4096))*1000000;
 			t_pap.detach();
 			t_pap.attach_us(&rutina_mpap, time_pap);
@@ -375,8 +351,6 @@ void leer_serie()
 			trama[2]= 0xFF;
 			trama[3]= 0xE0;
 			pc.printf(trama);
-
-
 
 		}else if(trama_rx[0]==0x44){				// "D" Girar el motor paso a paso a la derecha (horario)
 
@@ -413,12 +387,9 @@ int main()
 	pc.attach(&leer_serie,Serial::RxIrq);
 	pwm.period_ms(20);
 	t_pot.attach_us(rutina_servo,50000); 					// Cada 50ms
-	//intervalo = 0.05;
 	oled.speed(SSD1306::Medium);
 	oled.init();
 	oled.cls();
-	while(1)
-
-	{}
+	while(1){}
 
 }
